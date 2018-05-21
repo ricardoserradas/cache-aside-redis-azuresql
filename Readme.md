@@ -10,7 +10,7 @@ A .NET Core console application to get information about a Sticker Album. You ca
 
 ### FluentMigrator 
 
-Used to setup the database schema. See class [AddStickerTable.cs](console/AddStickerTable.cs).
+Used to setup the database schema. See class [AddStickerTable.cs](src/console/AddStickerTable.cs).
 
 ### Entity Framework Core
 
@@ -24,7 +24,7 @@ The Distributed Cache technology used to implement this sample.
 
 ### Running the ARM Template
 
-Before starting to run the console app, you need to provision the cloud infrastructure needed to run this application. Take a look at the [ARM Template](armtemplate/Readme.md) for more information.
+Before starting to run the console app, you need to provision the cloud infrastructure needed to run this application. Take a look at the [ARM Template](src/armtemplate/Readme.md) for more information.
 
 ### Insert some data into the database
 
@@ -39,12 +39,12 @@ Tip: use the [Query Editor (Preview)](https://azure.microsoft.com/pt-br/blog/t-s
 
 ### Update the appsettings.json with connection strings
 
-The last step before running this sample is to update [appsettings.json](console/appsettings.json) with your connection strings for both the Azure SQL Database and the Redis Cache. To take these info from these workloads, take a look at the documentation below:
+The last step before running this sample is to update [appsettings.json](src/console/appsettings.json) with your connection strings for both the Azure SQL Database and the Redis Cache. To take these info from these workloads, take a look at the documentation below:
 
 * [Azure SQL Database](https://docs.microsoft.com/en-us/azure/sql-database/sql-database-connect-query-dotnet-visual-studio#for-adonet)
 * [Azure Redis Cache](https://docs.microsoft.com/pt-br/azure/redis-cache/cache-dotnet-how-to-use-azure-redis-cache#retrieve-host-name-ports-and-access-keys-using-the-azure-portal)
 
-**Attention!** Take a look at the default username and password for the SQL Server. You're going to need it in your connection string. Change it on [template.json](armtemplate/template.json) if you want to, before running the Azure Deployment.
+**Attention!** Take a look at the default username and password for the SQL Server. You're going to need it in your connection string. Change it on [template.json](src/armtemplate/template.json) if you want to, before running the Azure Deployment.
 
 ## Running the sample
 
