@@ -49,3 +49,23 @@ The last step before running this sample is to update [appsettings.json](src/con
 ## Running the sample
 
 On the _console_ folder, `dotnet restore` and then `dotnet run` and voilá!
+
+### Getting the cache insight
+
+When running the app, first **Query Data**. You'll be asked about the sticker number you want to query. Type it and check the results. You're going to get something like this:
+
+`-------`
+`Found the following sticker:`
+`-------`
+`Number: {sticker.Number}`
+`Player: {sticker.PlayerName}`
+`Country: {sticker.Country}`
+**`Source: {source}`**
+**`Execution time: {executionTime}ms`**
+`-------`
+
+Special attention to the last two lines. For the first time, the data will come from the SQL Server. Keep in mind the execution time.
+
+Now query for the same sticker number. You'll notice that the source will become Redis Cache and... Take a look at the execution time. Repeat the query to see the results.
+
+To reset the data from the cache, use the option _2 - Remove from cache_.
