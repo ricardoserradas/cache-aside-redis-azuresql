@@ -4,6 +4,8 @@ This console app was created to test the Redis Cache for implementing the Cache-
 
 Thanks to [Barry Luijbregts](https://github.com/bmaluijb) for creating such inspiring Pluralsight courses that pushed me to starting creating samples like this to help the community.
 
+Please see the implementations he did for explaining each Cloud Design Pattern [here](https://github.com/bmaluijb/CloudDesignPatterns).
+
 ## Technologies used
 
 ### .NET Core 2.0
@@ -82,6 +84,6 @@ To reset the data from the cache, use the option _2 - Remove from cache_.
 
 ## Feedbacks, comments and contributions are welcome!
 
-Feel free to reach me out by mentioning @ricardoserradas on Twitter so we can exchange some ideas about sampling like this.
+Feel free to reach me out by mentioning [@ricardoserradas](https://twitter.com/ricardoserradas) on Twitter so we can exchange some ideas about sampling like this.
 
 Contributing is also very welcome to make this sample richer!
