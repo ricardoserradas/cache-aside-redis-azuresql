@@ -8,71 +8,14 @@
         "servers_cacheaside_name": {
             "value": ""
         },
-        "advisors_DropIndex_name": {
-            "value": null
-        },
-        "keys_ServiceManaged_name": {
-            "value": "ServiceManaged"
-        },
-        "advisors_CreateIndex_name": {
-            "value": null
-        },
-        "advisors_DefragmentIndex_name": {
-            "value": null
-        },
-        "auditingPolicies_Default_name": {
-            "value": null
-        },
-        "advisors_ForceLastGoodPlan_name": {
-            "value": null
-        },
-        "advisors_DbParameterization_name": {
-            "value": null
-        },
-        "encryptionProtector_current_name": {
-            "value": null
-        },
         "databases_Cache_Aside_Sample_name": {
             "value": null
         },
         "firewallRules_AllowAllWindowsAzureIps_name": {
-            "value": null
-        },
-        "auditingPolicies_Default_name_1": {
-            "value": null
+            "value": "AllowAllWindowsAzureIps"
         },
         "databases_master_name": {
-            "value": null
-        },
-        "geoBackupPolicies_Default_name": {
-            "value": null
-        },
-        "advisors_DropIndex_name_1": {
-            "value": null
-        },
-        "advisors_CreateIndex_name_1": {
-            "value": null
-        },
-        "transparentDataEncryption_current_name": {
-            "value": null
-        },
-        "advisors_DefragmentIndex_name_1": {
-            "value": null
-        },
-        "auditingPolicies_Default_name_2": {
-            "value": null
-        },
-        "geoBackupPolicies_Default_name_1": {
-            "value": null
-        },
-        "advisors_ForceLastGoodPlan_name_1": {
-            "value": null
-        },
-        "advisors_DbParameterization_name_1": {
-            "value": null
-        },
-        "transparentDataEncryption_current_name_1": {
-            "value": null
+            "value": "master"
         }
     }
 }
