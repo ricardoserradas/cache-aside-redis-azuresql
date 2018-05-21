@@ -22,7 +22,7 @@ Used to query data from the database
 
 ### Redis Cache
 
-The Distributed Cache technology used to implement this sample.
+The cache technology used to implement this sample.
 
 ## Prepare for running
 
