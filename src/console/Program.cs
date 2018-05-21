@@ -119,8 +119,6 @@ namespace console
                 Console.WriteLine($"Player: {sticker.PlayerName}");
                 Console.WriteLine($"Country: {sticker.Country}");
                 PrintImportantInfo($"Source: {source}");
-                // Console.WriteLine($"Source: {source}");
-                // Console.WriteLine($"Execution time: {stopWatch.ElapsedTime().Milliseconds}ms");
                 PrintImportantInfo($"Execution time: {stopWatch.ElapsedTime().Milliseconds}ms");
                 PrintBreakLine();
             }
